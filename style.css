@@ -1,0 +1,344 @@
+body {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  
+}
+
+a {  
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+
+.heading {
+  position: relative;
+  border-radius: 13px;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #fcfcfc;
+  text-align: center;
+}
+
+.heading-2 {
+  position: relative;
+  border-radius: 13px;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.section {
+  display: inline;
+  overflow: scroll;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+
+
+.list {
+  position: relative;
+  float: none;
+  clear: both;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff;
+  border-radius: 13px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.list-item {
+  list-style-type: square;
+}
+
+.list-item-1 {
+  clear: none;
+  border-radius: 13px;
+  color: #e05522;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.list-item-2 {
+  border-radius: 13px;
+  color: #e05522;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.list-item-3 {
+  border-radius: 13px;
+  color: #e05522;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.list-item-4 {
+  border-radius: 13px;
+  color: #e05522;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+  justify-content: center;
+}
+      
+.box div {
+  width: 400px;
+  height: 400px;
+}
+
+
+.image {
+  display: block;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.about-us-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.image-aboutus {
+  width: 100%;
+  margin-right: 40px;
+}
+
+.imageaboutus {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.heading-3 {
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  border-radius: 13px;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #fcfcfc;
+  font-size: 49px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.paragraph {
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #fcfcfc;
+}
+
+@media screen and (max-width: 767px) {
+  .about-us-section {
+    padding: 40px 20px;
+  }
+
+  .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .image-mask {
+    margin-right: 0px;
+  }
+
+  .imageaboutus {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.menu {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menuitem {
+  flex-basis: 10%;
+  flex-grow: 1;
+}
+
+.menuitem img {
+  width: 70%;
+  height: 70%;
+}
+
+@media (min-width: 1025px) {
+  .menuitem {
+    flex-basis: 30%;
+  }
+}
+
+.heading-4 {
+  position: relative;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  
+  .paragraph {
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  }
+  
+ 
+
+  
+  .headinghome {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .homebox {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    color: #fcfcfc;
+    font-size: 14px;
+    text-align: center;
+    text-align: center;
+  }
+  
+  .homegrid {
+    display: -ms-grid;
+    display: grid;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    text-align: center;
+    justify-content: center;
+    
+    
+  }
+
+
+  .homegrid img {
+    width: 70%;
+    height: 70%;
+  }
+  
+  
+  .padding {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 0%;
+  }
+  
+  .imagehome {
+    position: absolute;
+    align-items: center;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+    padding-top: 20px;
+
+  }
+  
+  @media screen and (max-width: 300px) {
+    .homegrid {
+      grid-column-gap: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .about-us-section {
+      padding: 40px 20px;
+    }
+  
+    .flex-container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  
+    .image-mask {
+      margin-right: 0px;
+    }
+  
+    .imageaboutus {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+    .headinghome {
+      padding: 40px 20px;
+    }
+  
